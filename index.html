@@ -1,0 +1,48 @@
+# Pratikumdasproa
+ Tugas Pottest
+print("---------------------------")
+print("Selamat datang di Mathlogin")
+print("---------------------------")
+#Muhammad Rofiif Taqiyyuddin Nabiil Nim:2309116029
+#menggunakan function
+print("Masukan username dan password anda")
+def login():
+    username = input("Username: ")
+    password  = input("Password(NIM): ")
+#menggunakan if-else untuk membuat username dan password
+    if username == "Rofif" and password == "2309116029": 
+        print("Login berhasil")
+    else:
+        print("Login gagal,mohon Periksa Kembali Username dan Password Anda")
+#untuk memanggil function
+login()
+
+print("=============================================")
+print("Pilihan Operasi")
+print("1. Sisi Alas(a)")
+print("2. Sisi Tegak(b)")
+print("3. Sisi Miring(c)")
+print("=============================================")
+
+operasi = int(input("Silahkan Masukan Pilihan Operasi (1/2/3) : "))
+#import math=untuk dapat menggunakan fungsi dasar matematika untuk operasi sederhana
+#math.sqrt=untuk akar kuadrat
+if operasi == 1:
+    c = int(input("Masukan Nilai Sisi Miring : "))
+    b = int(input("Masukan Nilai Sisi Tegak : "))
+    import math
+    a = math.sqrt(c**2 - b**2)
+    print("Hasil sisi alas adalah : ", c**2, "-", b**2, "=", a)     
+elif operasi == 2:
+    c = int(input("Masukan Nilai Sisi Miring : "))
+    a = int(input("Masukan Nilai Sisi Alas : "))
+    import math
+    b = math.sqrt(c**2 - a**2)
+    print("Hasil sisi tegak adalah : ", c**2, "-", a**2, "=", b) 
+
+elif operasi == 3:
+    a = int(input("Masukan Nilai Sisi Miring : "))
+    b = int(input("Masukan Nilai Sisi Tegak : "))
+    import math
+    c = math.sqrt(a**2 + b**2)
+    print("Hasil sisi miring adalah : ", a**2, "+", b**2, "=", c)    
