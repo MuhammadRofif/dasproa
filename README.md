@@ -2,7 +2,7 @@
 Tugas Pottest
 ![Screenshot 2023-09-25 154019](https://github.com/MuhammadRofif/dasproa/assets/144349308/bf1a0672-956e-4b09-84c6-a7daa6d35272)
 
-1."MULAI"flowchart dimulai dengan simbol mulai
+1."MULAI"flowchart dimulai dengan simbol mulai 
 2."INPUT"Pengguna memasukkan pilihan operasi yaitu sisi alas/sisi tegak/sisi miring
 3."DECISION"Apakah pilihan sesuai jika sesuai lanjut ke proses
 4."PROSES"Hitung sisi alas,sisi tegak dan sisi miring
